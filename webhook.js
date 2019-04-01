@@ -10,12 +10,13 @@ server.use(Restify.plugins.jsonp());
 
 // POST route handler
 server.post('/', (req, res, next) => {
-  let {
-    status,
-    result
-  } = req.body;
+  let result = req.body.queryResult;
+  const {amountToConvert, outputCurrency} = result.parameters;
 
-  console.log(result);
+  console.log(amountToConvert);
+  console.log(outputCurrency);
 
   return next();
 });
+
+server.listen(PORT, () => console.log('Moneybot running on PORT: ' + PORT));
