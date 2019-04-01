@@ -3,7 +3,10 @@ A currency convertor chatbot.
 
 ## 🐣 Introduction
 
-We realized a Chabot with the Dialogflow api : https://console.dialogflow.com/api-client/?fbclid=IwAR2wbsGeWMyDElEMIrw3EkXpv20C6RD-hHtYxdNCbI_hKBDK7_mMzH2tcpk#/editAgent/d8b32177-6082-46a6-aa02-3134c71e4f35/. PopyTheMoneyBot is able to convert an amount of money into various currencies (GBP, SEK, EUR, USD..) using the API : https://exchangeratesapi.io/.
+We realized a Chabot with the Dialogflow api : https://console.dialogflow.com/api-client/?fbclid=IwAR2wbsGeWMyDElEMIrw3EkXpv20C6RD-hHtYxdNCbI_hKBDK7_mMzH2tcpk#/editAgent/d8b32177-6082-46a6-aa02-3134c71e4f35/.
+
+PopyTheMoneyBot is able to convert an amount of money into various currencies (GBP, SEK, EUR, USD..) using the API : https://exchangeratesapi.io/.
+
 Our chatbot was put on 3 servers : Facebook messenger https://www.facebook.com/Popy-The-Money-Bot-1225091967669661/ : , Skype (error server..) and Slack : . 
 
 ## 🏃‍💻  How does it works ?
