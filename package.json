@@ -1,0 +1,23 @@
+{
+  "name": "moneybot",
+  "version": "1.0.0",
+  "description": "the webhook for a currency convertor chatbot",
+  "scripts": {
+    "start": "node webhook.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerminalCorreia/Moneybot.git"
+  },
+  "author": "GerminalCorreia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerminalCorreia/Moneybot/issues"
+  },
+  "homepage": "https://github.com/GerminalCorreia/Moneybot#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "restify": "^8.2.0"
+  }
+}
